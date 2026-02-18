@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-wrapper">
+        <div class="quiz-container">
+            <h2>Interactive JavaScript Quiz</h2>
+            <p class="subtitle">Answer all questions and submit your quiz</p>
+
+            <form id="quizForm">
+
+                <div class="question">
+                    <p>1. What is the capital of Pakistan?</p>
+                    <label><input type="radio" name="q1" value="Karachi"> Karachi</label>
+                    <label><input type="radio" name="q1" value="Islamabad"> Islamabad</label>
+                    <label><input type="radio" name="q1" value="Lahore"> Lahore</label>
+                </div>
+
+                <div class="question">
+                    <p>2. Which language runs in the browser?</p>
+                    <label><input type="radio" name="q2" value="Java"> Java</label>
+                    <label><input type="radio" name="q2" value="JavaScript"> JavaScript</label>
+                    <label><input type="radio" name="q2" value="Python"> Python</label>
+                </div>
+
+                <div class="question">
+                    <p>3. What does HTML stand for?</p>
+                    <label><input type="radio" name="q3" value="HyperText Markup Language"> HyperText Markup Language</label>
+                    <label><input type="radio" name="q3" value="HighText Machine Language"> HighText Machine Language</label>
+                    <label><input type="radio" name="q3" value="Hyperlinks and Text Markup Language"> Hyperlinks and Text Markup Language</label>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn-submit" onclick="checkQuiz()">Submit Quiz</button>
+                    <button type="button" class="btn-reset" onclick="resetQuiz()">Reset Quiz</button>
+                </div>
+
+            </form>
+
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
