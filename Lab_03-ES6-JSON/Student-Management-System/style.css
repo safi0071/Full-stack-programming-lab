@@ -25,22 +25,9 @@ h2 {
     margin-bottom: 25px;
 }
 
-.btn-primary {
-    padding: 8px 18px;
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.btn-primary:hover {
-    background-color: #166fe0;
-}
-
-.output-box {
-    margin-top: 20px;
+.student-card {
+    background-color: #eef2ff;
     padding: 15px;
-    background-color: #f8f9fa;
     border-radius: 6px;
+    margin-bottom: 15px;
 }
