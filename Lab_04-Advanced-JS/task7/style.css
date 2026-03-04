@@ -1,0 +1,10 @@
+li {
+    padding: 10px;
+    margin: 5px;
+    background: lightblue;
+    cursor: move;
+}
+
+.dragging {
+    opacity: 0.5;
+}
